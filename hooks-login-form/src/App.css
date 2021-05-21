@@ -1,0 +1,42 @@
+
+section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.failure, .success {
+  align-self: center;
+}
+
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #045aaa;
+  color: white;
+  width:150px;
+}
+
+.submitDiv {
+  display:flex;
+  justify-content: center;
+}
+
+
+/* Style the container for inputs */
+.container {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+
