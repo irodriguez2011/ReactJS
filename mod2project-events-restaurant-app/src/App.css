@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: #272829;
+  color:white; 
+}
+
+.navLinks {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.logo {
+  color: #b97fac;
+}
+
+
+/* Header CSS */
+
+.header {
+  display: flex;
+  padding-top: 10px;
+  justify-content: space-evenly;
+  margin: 0px auto;
+
+}
+
+.header h1 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.headerText {
+  width: 46%;
+  margin-left: 10px
+
+}
+
+.imgDiv{
+
+  align-self: flex-start;
+ 
+}
+
+/* Middle Content */
+
+.middle-content{
+  
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.TrendingEventsContainer{
+
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.TrendingEventsContainer h2 {
+  align-self: center;
+  border-bottom: 7px double #b97fac; 
+  padding-bottom: 5px;
+ 
+}
+
+span {
+ 
+  display: flex;
+}
+
+.Home-pg-events{
+  border: 2px solid black;
+  margin: 10px;
+  min-width: 60%;
+  min-height: 200px;
+}
+
+
+
+
+/* Links */
+
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
