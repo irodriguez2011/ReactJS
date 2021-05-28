@@ -11,10 +11,13 @@ function Nav() {
                 <Link to='/'>
             <li> Home</li>
                </Link>
-
-                <li> Events </li> 
+                     
+                     <Link to="/articles"> 
+                <li> Arts and Culture </li>
+                     </Link>
+                <Link to="/restaurants"> 
                 <li> Restaurants</li>
-
+                </Link>
                <Link to='/saved'> 
             <li>  Saved</li>
             </Link>
