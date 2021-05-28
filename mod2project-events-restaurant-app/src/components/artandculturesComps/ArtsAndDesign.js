@@ -18,7 +18,7 @@ function ArtsAndDesign() {
   }
 
   const loadArt = () => {
-    fetch('https://api.nytimes.com/svc/search/v2/articlesearch.json?fq=section_name:("Arts")ANDq=art-and-design&page=2&fq=section_name.contains:(" art and design")&sort=newest&api-key=LENP3jU16355lJAA1HGdGIhdEAlqu9ih')
+    fetch('https://api.nytimes.com/svc/search/v2/articlesearch.json?fq=section_name:("Arts")&fq=section_name.contains:("design")&page=2&sort=newest&api-key=LENP3jU16355lJAA1HGdGIhdEAlqu9ih')
     .then((response) => {
         return response.json()
     }).then( (data) => {
@@ -51,7 +51,7 @@ function ArtsAndDesign() {
 
        <div className="TrendingEventsContainer">  
        
-       {(artArticle || []).map((i,n)=> 
+       {(artArticle.slice(3,14) || []).map((i,n)=> 
          <div className="Home-pg-events"> <a href={i.web_url}>    <h2> {i.headline.main}  </h2> </a> <img width="200" src={'https://www.nytimes.com/'+i.multimedia.url} />  <p>  <p> <em>{i.abstract} </em> </p>  {i.lead_paragraph } </p> 
          </div>
            
