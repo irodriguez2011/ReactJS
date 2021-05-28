@@ -11,7 +11,6 @@
 
 **End-user:** Anyone who enjoys movies, TV and  art and culture and staying up to date. Someone who is a foodie or enjoys going out to eat
 
-![Image of homepage](app_homepage.jpg)
 
 ### APIs Used
 
