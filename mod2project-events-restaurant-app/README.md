@@ -9,7 +9,7 @@
 * Find musuems and other art/culture related events
 * keep up with current events regarding arts and current movies/tv shows
 
-**End-user:** Anyone who enjoys movies, TV and  art and culture and staying up to date. Someone who is a foodie or enjoys going out to eat
+**End-user:** Anyone who enjoys movies, TV, and  art and culture and staying up to date. Someone who is a foodie or enjoys going out to eat
 
 
 ### APIs Used
