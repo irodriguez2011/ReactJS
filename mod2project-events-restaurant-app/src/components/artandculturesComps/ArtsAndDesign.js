@@ -18,7 +18,7 @@ function ArtsAndDesign() {
   }
 
   const loadArt = () => {
-    fetch('https://api.nytimes.com/svc/search/v2/articlesearch.json?fq=section_name:("Arts")ANDq=art-and-design&page=2&sort=newest&api-key=LENP3jU16355lJAA1HGdGIhdEAlqu9ih')
+    fetch('https://api.nytimes.com/svc/search/v2/articlesearch.json?fq=section_name:("Arts")ANDq=art-and-design&page=2&fq=section_name.contains:(" art and design")&sort=newest&api-key=LENP3jU16355lJAA1HGdGIhdEAlqu9ih')
     .then((response) => {
         return response.json()
     }).then( (data) => {
@@ -35,16 +35,24 @@ function ArtsAndDesign() {
  
 }, [])
     
+
+
+  
     return (
         <div>
             
-       <h3 onClick={loadArt}> arts and design</h3>
-       <h3 onClick={loadWatch}> What to Watch</h3>
+        <div className="article-heading">  
+
+       <h3 onClick={loadArt}> Arts And design |</h3> 
+       <h3 className="what-to-watch"  onClick={loadWatch}> What To Watch</h3>
+
+       </div>
+
 
        <div className="TrendingEventsContainer">  
        
        {(artArticle || []).map((i,n)=> 
-         <div className="Home-pg-events"> <a href={i.abstract}>  <h3> {i.title} </h3> </a> <img width="200" src={'https://www.nytimes.com/'+i.multimedia[0].url} />  <p>  {i.snippet } <br/> {i.headline.main} </p>  
+         <div className="Home-pg-events"> <a href={i.web_url}>    <h2> {i.headline.main}  </h2> </a> <img width="200" src={'https://www.nytimes.com/'+i.multimedia.url} />  <p>  <p> <em>{i.abstract} </em> </p>  {i.lead_paragraph } </p> 
          </div>
            
        )}

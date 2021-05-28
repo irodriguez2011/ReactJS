@@ -4,13 +4,12 @@ import ResData from './restaurantPageComps/ResData'
 function Restaurants() {
     return (
         <section>   
-             <h1> Restaurants</h1>
-        <div>   
-        
-        
-        </div>
-  
-                  <div>  </div>
+
+        <div className="restaurantsHeader"> 
+             <h1 className="restaurantsH1"> Search Restaurants</h1>
+
+             </div>
+       
 
         <p> <ResData/> </p>
         </section>

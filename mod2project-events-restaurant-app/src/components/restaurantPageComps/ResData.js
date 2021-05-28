@@ -46,14 +46,14 @@ const handleSubmit = (e) => {
 
 
 }
-    
+    console.log(handleSubmit)
   
   return (
         <div> 
 
      
-     Search by Zipcode<input onChange={(e) => setZipCode(e.target.value)} type="text" placeholder="Search by cuisine, zip code, " value={zipCode} />
-   and cuisine <input onChange={(e) => setinputCuisine(e.target.value)} type="text" placeholder="Search by cuisine, zip code, " value={inputCuisine} />
+     Search by Zipcode<input onChange={(e) => setZipCode(e.target.value)} type="text" placeholder="10003 " value={zipCode} />
+   and cuisine <input onChange={(e) => setinputCuisine(e.target.value)} type="text" placeholder="italian " value={inputCuisine} />
                
                     <input  onClick={handleSubmit} className="submit" type="button" value="Submit" />
                    

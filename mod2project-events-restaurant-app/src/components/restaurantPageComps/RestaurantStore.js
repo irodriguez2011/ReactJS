@@ -44,7 +44,7 @@ function RestaurantStore({name,phone,website,priceRange,cuisines,address,menu}) 
                                     const toReturn = {}
                                     toReturn.name=section.section_name
                                     toReturn.items = section.menu_items.map(n => ({name:n.name, description:n.description,price:n.price}))
-                                    return  <div> <p> {toReturn.name}  </p> <ul> {toReturn.items.map(n => <li> <h3> {n.name} </h3> <p> {n.description} ${n.price} </p>  </li> )} </ul></div>
+                                    return  <div> <p> <h3 className="menuitems"> <em> {toReturn.name}</em> </h3> </p> <ul> {toReturn.items.map(n => <li> <h4> {n.name} </h4> <p> {n.description} ${n.price} </p>  </li> )} </ul></div>
 
 
 })

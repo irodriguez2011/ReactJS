@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# MOD2 React Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Restaurants/Arts app
 
-In the project directory, you can run:
+**Probem:** 
 
-### `npm start`
+* An app where users can keep up with information on restaurants and food in NYC as well as search for restaurants
+* Find musuems and other art/culture related events
+* keep up with current events regarding arts and current movies/tv shows
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**End-user: Anyone who enjoys movies, TV and  art and culture and staying up to date. Someone who is a foodie or enjoys going out to eat
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### APIs Used
 
-### `npm run build`
+**Documenu (https://documenu.com/docs#get_started)
+ * used to fetch information for restaurants
+ 
+ **NYTimes (https://developer.nytimes.com/apis)
+ * Fetched articles
+ 
+ ## Project Requirements
+ 
+* Project must be approved by Instructor approval at the start of project week
+* Project code is pushed to a public Git repository
+* The code should be written in ES6 as much as possible
+* Use the create-react-app generator to start your project 
+* Makes use of React Router (install react-router-dom), and Redux (install redux react-redux)
+* There should be 2 container components 
+* There should be 5 stateless components
+* There should be 3 or more routes
+* The Application must make use of react-router and proper RESTful routing 
+* Your client-side application should handle the display of data with minimal data manipulation 
+* Uses CSS to style your application
+* Frontend uses AJAX (fetch) requests 
+* Application has at least 2 unique APIs (should be related in some way)
+* Has README.md file at the root of repository
+* readme file clearly documents the purpose of the project as a problem statement
+* readme file clearly documents the target end user for this project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

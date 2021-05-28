@@ -13,9 +13,9 @@ function Articles() {
             <h1> Arts and Culture</h1>
   
         </div>
-            <div className="articlesHeader"> <ArtsAndDesign /> 
 
-             </div>
+            <ArtsAndDesign /> 
+
 
         </section>
     

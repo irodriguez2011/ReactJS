@@ -18,9 +18,7 @@ function Nav() {
                 <Link to="/restaurants"> 
                 <li> Restaurants</li>
                 </Link>
-               <Link to='/saved'> 
-            <li>  Saved</li>
-            </Link>
+              
 
         
         </ul>
